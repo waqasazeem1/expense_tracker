@@ -18,7 +18,7 @@ export const AddTransaction = () => {
     setTransactionAmount("");
   };
   return (
-    <div>
+    <div className="addTransaction">
       <h3>Add new transaction</h3>
       <form action="" onSubmit={onSubmit}>
         <div>

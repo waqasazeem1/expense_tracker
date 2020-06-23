@@ -9,7 +9,7 @@ import { Transaction } from "../components/transaction";
 export const TransactionHistory = () => {
   const { transactions } = useContext(globalContext);
   return (
-    <div>
+    <div className="history">
       <h3>Tansaction History</h3>
       <ul>
         {transactions.map((transaction) => (
