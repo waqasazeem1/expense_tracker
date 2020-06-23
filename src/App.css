@@ -35,7 +35,7 @@ body {
   padding: 30px;
 }
 .addTransaction {
-  background-color: palegreen;
+  background-color: greenyellow;
   width: 18%;
   flex: 1;
   margin-left: 40%;
