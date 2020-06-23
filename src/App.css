@@ -1,44 +1,173 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: peachpuff;
+  background-color: #01616a;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .header {
-  background-color: blueviolet;
-  width: 18%;
-  flex: 1;
-  margin-left: 40%;
-  padding: 30px;
+  overflow: hidden;
+  /* background-color: #f1f1f1; */
+  padding: 20px 10px;
+  text-align: center;
+  color: red;
+  opacity: 0.8;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.account_sammary {
-  background-color: burlywood;
-  width: 18%;
-  flex: 1;
-  margin-left: 40%;
-
-  padding: 30px;
+.header p {
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
 }
 .balance {
-  background-color: lightcoral;
-  width: 18%;
+  background-color: #072434;
+  width: 40%;
   flex: 1;
-  margin-left: 40%;
 
-  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+}
+.balance h5 {
+  color: red;
+}
+.balance h1 {
+  color: white;
+}
+.account_sammary {
+  background-color: yellowgreen;
+  width: 40%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  /* border-radius: 10px; */
+}
+.account_sammary .income {
+  background-color: tomato;
+  padding: 5px;
+  width: 30%;
+  border-radius: 10px;
+}
+.account_sammary .expense {
+  background-color: orange;
+  padding: 5px;
+  width: 30%;
+  border-radius: 10px;
+}
+.account_sammary div p {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
 }
 .history {
-  background-color: darkgreen;
-  width: 18%;
-  flex: 1;
-  margin-left: 40%;
+  background-color: #cc5ffb;
 
-  padding: 30px;
+  flex: 1;
+  margin: auto;
+  width: 42.7%;
+  padding: 1px;
+  /* border-radius: 10px; */
+  height: 100px;
+  height: auto;
+}
+.history h3 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.history ul {
+  list-style-type: none;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
 }
 .addTransaction {
-  background-color: greenyellow;
-  width: 18%;
-  flex: 1;
-  margin-left: 40%;
+  background-color: #ffffff;
 
-  padding: 30px;
+  display: flex;
+  margin: auto;
+  width: 40%;
+  border-radius: 0px 0px 10px 10px;
+
+  padding: 20px;
+  flex-flow: column;
+}
+.addTransaction h3 {
+  display: flex;
+  justify-content: center;
+  color: brown;
+  font-family: monospace;
+  font-size: 30px;
+}
+.input label {
+  color: red;
+  margin: 10px;
+}
+
+.input input {
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid blueviolet;
+  outline: none;
+}
+
+form button {
+  display: flex;
+  width: 30%;
+  border-radius: 5px;
+  /* height: 40px; */
+  margin: 30px auto;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  background: yellowgreen;
+  border: #cc5ffb;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  padding: 5px 0px;
+
+  /* justify-content: space-between; */
+}
+.list .description {
+  background-color: white;
+  border: 1px solid blue;
+  /* justify-content: f; */
+  justify-content: space-between;
+  padding: 10px;
+  width: 70%;
+  border-radius: 10px;
+  /* margin: 0px 800px 0px 0px; */
+}
+.list .amount {
+  /* justify-content: flex-end; */
+  margin: 0px 0px 0px 180px;
+}
+.list button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  width: 10%;
+  border: 1px solid white;
+  margin: 0px 5px;
+}
+.list button:hover {
+  background-color: red;
+  outline: none;
 }

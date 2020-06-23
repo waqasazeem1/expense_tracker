@@ -19,6 +19,9 @@ function App() {
         <AccountSammary />
         <TransactionHistory />
         <AddTransaction />
+        <h3 style={{ color: "white", fontStyle: "oblique" }}>
+          created and published by <b>"Waqas Azeem"</b>
+        </h3>
       </div>
     </GlobalProvider>
   );
